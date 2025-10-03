@@ -23,7 +23,40 @@
             <textarea id="sinopse" required></textarea>
         </div>
 
-
+        <button type="submit">Adicionar Filme</button>
     </form>
+
+    <hr>
+
+    <h2>Minha lista de Filmes</h2>
+
+    <div id="lista-filmes">
+        <p>Nenhum filme cadastrado ainda.</p>
+    </div>
+
+    <script>
+        // 1. Armazenamennto de dados
+        // array global que ira guardar todos os filmes como objetos.
+        // ex: [{ titulo:  'Filme X', sinopse: 'Sinopse Y'}]
+        const Catalogo = [];
+
+        // 2. captura de elementos do dom
+        
+        const from = document.getElementById('cadastro-filme');
+        const listaFilmesContainer = document.getElementById('lista-filmes');
+
+        //--------------------------------------------------------------------
+        //Funçao de remoçao
+        //--------------------------------------------------------------------
+
+        function removerFilme(indice, elementoDOM) {
+            Catalogo.
+        }
+
+    </script>
+
+
+
+
 </body>
 </html>
